@@ -4,11 +4,11 @@
     "matched_people": 29,
     "missing_people": 0,
     "extra_people": 0,
-    "mean_oks": 0.9537,
+    "mean_oks": 0.9529,
     "oks50": 1.0,
     "oks75": 1.0,
     "findings": {
-      "gold_khong_gan_nhan": 69,
+      "gold_khong_gan_nhan": 72,
       "co_khac_gold": 56,
       "lech_nhe": 6
     }
@@ -19,7 +19,7 @@
       "matches": [
         {
           "gold_person": 1,
-          "your_person": 1,
+          "your_person": 2,
           "oks": 0.9501,
           "findings": [
             {
@@ -33,12 +33,24 @@
               "label": "Cờ khác gold",
               "keypoint": "right_ear",
               "detail": "Vị trí đúng nhưng bạn ghi v=1, gold ghi v=2. Không trừ điểm OKS - nhưng nếu lệch hàng loạt thì guideline chưa thống nhất."
+            },
+            {
+              "type": "gold_khong_gan_nhan",
+              "label": "Gold không gán khớp này",
+              "keypoint": "left_knee",
+              "detail": "Không bị trừ điểm: khớp gold có v=0 bị loại khỏi OKS. Xem mục lưu ý trong README."
+            },
+            {
+              "type": "gold_khong_gan_nhan",
+              "label": "Gold không gán khớp này",
+              "keypoint": "right_knee",
+              "detail": "Không bị trừ điểm: khớp gold có v=0 bị loại khỏi OKS. Xem mục lưu ý trong README."
             }
           ]
         },
         {
           "gold_person": 2,
-          "your_person": 2,
+          "your_person": 1,
           "oks": 0.915,
           "findings": [
             {
@@ -58,6 +70,18 @@
               "label": "Cờ khác gold",
               "keypoint": "right_hip",
               "detail": "Vị trí đúng nhưng bạn ghi v=1, gold ghi v=2. Không trừ điểm OKS - nhưng nếu lệch hàng loạt thì guideline chưa thống nhất."
+            },
+            {
+              "type": "gold_khong_gan_nhan",
+              "label": "Gold không gán khớp này",
+              "keypoint": "left_knee",
+              "detail": "Không bị trừ điểm: khớp gold có v=0 bị loại khỏi OKS. Xem mục lưu ý trong README."
+            },
+            {
+              "type": "gold_khong_gan_nhan",
+              "label": "Gold không gán khớp này",
+              "keypoint": "right_knee",
+              "detail": "Không bị trừ điểm: khớp gold có v=0 bị loại khỏi OKS. Xem mục lưu ý trong README."
             }
           ]
         }
@@ -231,8 +255,8 @@
       "matches": [
         {
           "gold_person": 1,
-          "your_person": 2,
-          "oks": 0.9505,
+          "your_person": 1,
+          "oks": 0.9309,
           "findings": [
             {
               "type": "co_khac_gold",
@@ -245,18 +269,12 @@
               "label": "Cờ khác gold",
               "keypoint": "right_ear",
               "detail": "Vị trí đúng nhưng bạn ghi v=1, gold ghi v=2. Không trừ điểm OKS - nhưng nếu lệch hàng loạt thì guideline chưa thống nhất."
-            },
-            {
-              "type": "gold_khong_gan_nhan",
-              "label": "Gold không gán khớp này",
-              "keypoint": "left_hip",
-              "detail": "Không bị trừ điểm: khớp gold có v=0 bị loại khỏi OKS. Xem mục lưu ý trong README."
             }
           ]
         },
         {
           "gold_person": 2,
-          "your_person": 1,
+          "your_person": 2,
           "oks": 0.9333,
           "findings": [
             {
@@ -586,7 +604,7 @@
       "matches": [
         {
           "gold_person": 1,
-          "your_person": 2,
+          "your_person": 3,
           "oks": 0.9463,
           "findings": [
             {
@@ -641,7 +659,7 @@
         },
         {
           "gold_person": 2,
-          "your_person": 1,
+          "your_person": 2,
           "oks": 0.8283,
           "findings": [
             {
@@ -684,7 +702,7 @@
         },
         {
           "gold_person": 3,
-          "your_person": 3,
+          "your_person": 1,
           "oks": 0.9584,
           "findings": [
             {
@@ -704,7 +722,7 @@
       "matches": [
         {
           "gold_person": 1,
-          "your_person": 1,
+          "your_person": 2,
           "oks": 0.9638,
           "findings": [
             {
@@ -747,7 +765,7 @@
         },
         {
           "gold_person": 2,
-          "your_person": 2,
+          "your_person": 1,
           "oks": 0.9616,
           "findings": [
             {
@@ -910,7 +928,7 @@
         {
           "gold_person": 2,
           "your_person": 1,
-          "oks": 0.9926,
+          "oks": 0.9906,
           "findings": [
             {
               "type": "co_khac_gold",
